@@ -1,0 +1,18 @@
+# view res/layout/activity_tutorial.xml #generated:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:11
+-keep class com.airsig.webclientgui.EntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.airsig.webclientgui.TrainingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:13
+-keep class com.airsig.webclientgui.TutorialActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class com.airsig.webclientgui.VerifyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:5
+-keep class com.nevenakocic.passdance.CordovaApp { <init>(...); }
+

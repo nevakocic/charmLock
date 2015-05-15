@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlayout_whole_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background_white"
+        android:orientation="vertical" >
+
+        <!-- title for 1st screen to 5th screen -->
+        <!--
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:text="@string/textview_title_screen1_3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+        -->
+        <!-- descriptins for 1st to 5th screen -->
+        <!--
+        <TextView
+            android:id="@+id/text_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:text="@string/textview_description_screen1_3"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:visibility="invisible" />
+        -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <!-- background for 1st & 2nd screen -->
+
+            <ImageView
+                android:id="@+id/img_set_thumb_position_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="@color/background_white"
+                android:scaleType="center"
+                android:src="@drawable/bg_clickarea_light"
+                android:visibility="invisible" />
+
+            <!-- finger for 1st screen -->
+
+            <ImageView
+                android:id="@+id/img_finger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@android:color/transparent"
+                android:paddingBottom="60dp"
+                android:src="@drawable/img_click_finger"
+                android:visibility="invisible" />
+
+            <!-- background for 3rd, 4th, 5th and 6th screen -->
+
+            <ImageView
+                android:id="@+id/img_set_signature_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="@color/background_white"
+                android:scaleType="center"
+                android:src="@drawable/bg_authenticate_circle"
+                android:visibility="invisible" />
+
+            <!-- textview for 6th screen -->
+
+            <TextView
+                android:id="@+id/text_training_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:gravity="center_horizontal"
+                android:text="@string/textview_training_status"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/background_white"
+                android:visibility="invisible" />
+
+            <!-- button for 3rd screen and 6th screen -->
+
+            <Button
+                android:id="@+id/btn_nextStep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="100dp"
+                android:background="@drawable/button_large_padding_white"
+                android:text="@string/btn_next_step"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/next_step_btn_text"
+                android:visibility="invisible" />
+
+            <!-- show recording message for 5th screen -->
+
+            <LinearLayout
+                android:id="@+id/llayout_recording"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingTop="100dp"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/img_recording"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:padding="8dp"
+                    android:src="@drawable/ani_recording" />
+
+                <TextView
+                    android:id="@+id/text_recording"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="@string/textview_recording"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/background_white" />
+            </LinearLayout>
+
+            <!-- background for 7th screen -->
+
+            <ImageView
+                android:id="@+id/img_training_finish_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="@color/background_white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_strengthlevel_01"
+                android:visibility="invisible" />
+
+            <!-- show recording message for 7th screen -->
+
+            <LinearLayout
+                android:id="@+id/llayout_training_finish"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="0dp"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/img_training_done"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_done_big_green" />
+
+                <TextView
+                    android:id="@+id/text_training_done"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="@string/textview_training_done"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:id="@+id/llayout_training_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingTop="0dp"
+                    android:visibility="visible" >
+
+                    <TextView
+                        android:id="@+id/text_strength_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="@string/textview_strength_description"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/text_training_result"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="5dp"
+                        android:text="textview_training_result_strong"
+                        android:textColor="@color/black"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llayout_training_finish_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp" >
+
+                    <Button
+                        android:id="@+id/btn_sign_again"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/button_large_padding_blue"
+                        android:text="@string/btn_sign_again"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/background_white" />
+
+                    <Button
+                        android:id="@+id/btn_test_signature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_small_padding_blue"
+                        android:text="@string/btn_test_signature"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/background_white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- help button for all screen -->
+
+            <ImageButton
+                android:id="@+id/imgbtn_helpBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/transparent"
+                android:padding="20dp"
+                android:src="@android:drawable/ic_menu_help" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <!-- title for 1st screen to 5th screen -->
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:text="@string/textview_title_screen1_3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <!-- descriptins for 1st to 5th screen -->
+
+        <TextView
+            android:id="@+id/text_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:text="@string/textview_description_screen1_3"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <!-- thumb position for 2nd screen and 5th screen -->
+
+    <ImageView
+        android:id="@+id/img_thumbPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ani_doubleclick_02"
+        android:visibility="invisible" />
+
+    <!-- show setted icon for 3rd screen -->
+
+    <LinearLayout
+        android:id="@+id/llayout_set_thumb"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_set_thumb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_done"
+            android:visibility="invisible" />
+
+        <!-- textview for 3rd screen and 6th screen -->
+
+        <TextView
+            android:id="@+id/text_set_thumb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:text="@string/textview_set_thumb"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/background_white" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlayout_progressbar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background_white_alpha20"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/progressbar_waiting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

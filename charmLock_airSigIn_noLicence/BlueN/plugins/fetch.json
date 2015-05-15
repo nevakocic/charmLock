@@ -1,0 +1,8 @@
+{
+    "com.airsig.plugin.AirSigGUIPlugin": {
+        "source": {
+            "type": "local",
+            "path": "..\\AirSigGUIPlugin"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AirSigGui</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- For entry activity -->
+    <string name="set_signature">Set Signature</string>
+    <string name="verify_signature">Verify Signature</string>
+    <string name="clean_db">Clean DB</string>
+    <string name="no_signature">Please press "Set Signature" first</string>
+    
+    <!-- For tutorial activity -->
+    <string name="tutorial_title_p0">What is Air-Signature</string>
+    <string name="tutorial_desc_p0">Hold the phone and writing words to create your own unique key.</string>
+    <string name="tutorial_title_p1">Why Secure</string>
+    <string name="tutorial_desc_p1">Everyone\'s signature is unique and extremely difficult to copy by others.</string>
+    <string name="tutorial_title_p2">Hold the Phone Stably and Consistent</string>
+    <string name="tutorial_desc_p2">Different holding will be considered as different identity.</string>
+    <string name="tutorial_title_p3">Use Your Wrist</string>
+    <string name="tutorial_desc_p3">Smaller movement is easier to write and more difficult be observed by others.</string>
+    <string name="get_started">GET STARTED</string>
+    
+    <!-- For verify activity -->
+    <string name="verify_match">Match!</string>
+    <string name="verify_not_match">Not match!</string>
+    
+<!-- For training activity -->
+    <!-- Text for actionbar -->
+    <string name="done">Done</string>
+    <string name="reset">Reset</string>
+    <string name="clean">Clean Data</string>
+
+    <!-- Title and description -->
+    <string name="textview_title_screen1_3">Set how you hold the phone</string>
+    <string name="textview_description_screen1_3">Put your thumb on the screen. Test which position suits you best for you to write. "Double Tap" when you are ready.</string>
+    <string name="textview_title_screen4_5">Sign your secret word</string>
+    <string name="textview_description_screen4_5">Press the button and start writing, releasing your thumb when you complete.</string>
+
+    <!-- Text for 3rd training screen -->
+    <string name="textview_set_thumb">Set</string>
+    <string name="btn_next_step">Next Step</string>
+
+    <!-- Text for 5th training screen -->
+    <string name="textview_recording">Recording&#8230;</string>
+
+    <!-- Text for 6th training screen -->
+    <string name="textview_training_status">%1$d Signatures Inputted\n(Need %2$d times left)</string>
+    <string name="textview_training_restult">Show training result.\nShow training result.Show training result.\nShow training result.</string>
+
+    <!-- Text for 7th training screen -->
+    <string name="btn_sign_again">Sign Again</string>
+    <string name="btn_test_signature">Test Signature</string>
+    <string name="textview_training_done">All Set</string>
+    <string name="textview_strength_description">Security Strength is </string>
+    <string name="textview_training_result_strong">Strong</string>
+    <string name="textview_training_result_normal">Normal</string>
+    <string name="textview_training_result_weak">Weak</string>
+    <string name="textview_training_result_weakest">Very Weak</string>
+
+    <!-- Text for dialog popup in training mode -->
+    <string name="training_popup_title">Message</string>
+    <string name="training_popup_not_finish_training">You did not finsih training.</string>
+    
+    <string name="err_not_found">Not found.</string>
+    <string name="err_invalid_license">Invalid license.</string>
+    <string name="err_invalid_action_index">Invalid actionIndex.</string>
+    <string name="err_user_id">Invalid userId.</string>
+    <string name="err_invalid_signature">Invalid signature.</string>
+    <string name="err_high_defference">Signature is too different.</string>
+    <string name="err_no_sensor">Motion sensors are unavailable.</string>
+    <string name="err_no_internet">No internet.</string>
+    
+</resources>

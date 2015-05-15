@@ -1,0 +1,311 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"AirSigGUIPlugin\"><param name=\"android-package\" value=\"com.airsig.plugin.AirSigGUIPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "res/values/strings.xml": {
+                "parents": {
+                    "/resources": [
+                        {
+                            "xml": "<string name=\"airsig_licence\">{A3E09392-17FF-455E-9C46-685B5E303F34}</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"action_settings\">Settings</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"set_signature\">Set Signature</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"verify_signature\">Verify Signature</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"clean_db\">Clean DB</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"no_signature\">Please press \"Set Signature\" first</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"tutorial_title_p0\">What is Air-Signature</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"tutorial_desc_p0\">Hold the phone and writing words to create your own unique key.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"tutorial_title_p1\">Why Secure</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"tutorial_desc_p1\">Everyone\\'s signature is unique and extremely difficult to copy by others.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"tutorial_title_p2\">Hold the Phone Stably and Consistent</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"tutorial_desc_p2\">Different holding will be considered as different identity.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"tutorial_title_p3\">Use Your Wrist</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"tutorial_desc_p3\">Smaller movement is easier to write and more difficult be observed by others.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"get_started\">GET STARTED</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"verify_match\">Match!</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"verify_not_match\">Not match!</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"done\">Done</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"reset\">Reset</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"clean\">Clean Data</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_title_screen1_3\">Set how you hold the phone</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_description_screen1_3\">Put your thumb on the screen. Test which position suits you best for you to write. \"Double Tap\" when you are ready.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_title_screen4_5\">Sign your secret word</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_description_screen4_5\">Press the button and start writing, releasing your thumb when you complete.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_set_thumb\">Set</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"btn_next_step\">Next Step</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_recording\">Recording…</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_training_status\">%1$d Signatures Inputted\\n(Need %2$d times left)</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_training_restult\">Show training result.\\nShow training result.Show training result.\\nShow training result.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"btn_sign_again\">Sign Again</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"btn_test_signature\">Test Signature</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_training_done\">All Set</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_strength_description\">Security Strength is </string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_training_result_strong\">Strong</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_training_result_normal\">Normal</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_training_result_weak\">Weak</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"textview_training_result_weakest\">Very Weak</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"training_popup_title\">Message</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"training_popup_not_finish_training\">You did not finsih training.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"err_not_found\">Not found.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"err_invalid_license\">Invalid license.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"err_invalid_action_index\">Invalid actionIndex.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"err_user_id\">Invalid userId.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"err_invalid_signature\">Invalid signature.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"err_high_defference\">Signature is too different.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"err_no_sensor\">Motion sensors are unavailable.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"err_no_internet\">No internet.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"ok\">OK</string>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/manifest/application": [],
+                    "/*/application": [
+                        {
+                            "xml": "<activity android:label=\"@string/app_name\" android:name=\"com.airsig.webclientgui.EntryActivity\" android:screenOrientation=\"portrait\"></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.airsig.webclientgui.VerifyActivity\" android:screenOrientation=\"portrait\" android:theme=\"@style/AppThemeVerify\"></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.airsig.webclientgui.TutorialActivity\" android:screenOrientation=\"portrait\" android:theme=\"@style/AppThemeTutorial\"></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\".TrainingActivity\" android:screenOrientation=\"portrait\"></activity>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "androidmanifest.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.internet\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.access_wifi_state\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.access_network_state\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.vibrate\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-feature android:name=\"android.hardware.sensor.gyroscope\" android:required=\"true\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-feature android:name=\"android.hardware.sensor.accelerometer\" android:required=\"true\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest/application": [
+                        {
+                            "xml": "<activity android:label=\"@string/app_name\" android:name=\"com.airsig.webclientgui.EntryActivity\" android:screenOrientation=\"portrait\"></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.airsig.webclientgui.VerifyActivity\" android:screenOrientation=\"portrait\" android:theme=\"@style/AppThemeVerify\"></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.airsig.webclientgui.TutorialActivity\" android:screenOrientation=\"portrait\" android:theme=\"@style/AppThemeTutorial\"></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.airsig.webclientgui.TrainingActivity\" android:screenOrientation=\"portrait\"></activity>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.airsig.plugin.AirSigGUIPlugin": {
+            "PACKAGE_NAME": "com.airsig.webclientgui"
+        }
+    },
+    "dependent_plugins": {}
+}

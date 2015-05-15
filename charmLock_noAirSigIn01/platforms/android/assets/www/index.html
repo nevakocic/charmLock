@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>charmLock</title>
+ 
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="app">  
+
+        <!-- INTRO PAGE -->
+        <!-- ova strana nista ne radi, fore radi -->
+        <div  class="wholePage" id="introPage">
+            <!-- main container intro page-->
+            <div class="container introClass" id="introPageCont" style="height: 100%;
+            padding-top: 48%;">
+
+                <div class="row">
+                    <div class="col-xs-12 one" id="blankOne" style="text-align: center;">
+
+                        <div class="myFont" id="title" style="font-family: monospace;font-size: -webkit-xxx-large;"> CHARM*LOCK </div>
+                        <div class="myFont" id="subTitle" style="font-family: monaco, Consolas, 'Lucida Console', monospace;font-size: 14px;"> scaning for your devices 
+                        </div>
+
+                    </div>
+                </div>
+                 <div class="spinner"></div>
+            </div>
+        </div>
+        <!--  -->
+        <!-- START PAGE -->
+            <div  class="wholePage" id="startPage">
+                <!-- Header for start page -->
+                <div class="container-fluid" id="startHeader">
+                    <div class="row header">
+                        <button type="button" class="col-xs-3 btn btn-link headerElem" id="left">Edit</button>
+                        <div class="right-holder">
+                            <div class="col-xs-6 headerElem middle" id="myItems"> MY ITEMS </div> 
+                            <div class="col-xs-3 headerElem right" id="right"></div>
+                        </div>
+                    </div>
+                </div>
+               
+                <!-- main container start page-->
+                <div class="container" id="startPageCont">
+                    <div class="row" id="startButtons">
+                        <!-- will dinamicaly create buttons-->
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+
+            <!-- EDIT PAGE -->
+            <!-- like start page just leading to training signatures -->
+            <div  class="wholePage" id="editPage">
+                <!-- Header for start page -->
+                <div class="container-fluid" id="editHeader">
+                    <div class="row header">
+                        <button type="button" class="col-xs-3 btn btn-link headerElem" id="exitEdit">Edit</button>
+                        <div class="right-holder">
+                            <div class="col-xs-6 headerElem middle" id="editItems"> EDIT SIGNATURES </div> 
+                            <div class="col-xs-3 headerElem right" id="rightEdit"></div>
+                        </div>
+                    </div>
+                </div>
+               
+                <!-- main container edit page-->
+                <div class="container" id="editPageCont">
+                    <div class="row" id="editButtons">
+                        <!-- will dinamicaly create buttons-->
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+
+
+            <!-- TRAINING PAGE  -->
+            <div class="wholePage" id="trainingPage"> 
+                <!-- Header for training page -->
+                    <div class="container-fluid" id="trainingHeader">
+                    <div class="row header">
+                        <button type="button" class="col-xs-3 btn btn-link headerElem" id="backTrain"> &lt; Back </button>
+                        <div class="right-holder">
+                            <div class="col-xs-6 headerElem middle" id="myItemTrain"> SETTING SIGNATURE </div>
+                            <div class="col-xs-3 headerElem right"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- main training Page container -->
+                   <div class="container" id="trainingPageCont">
+                    <div class="row" id="trainingButtons">
+ 
+                        <button type="button" id="bigTrainButton" class="btn btn-danger col-xs-6 actions">Touch to start<br>
+                        Release when done<br><br>
+                        you'll repeat</button>
+
+                    </div>
+                    
+                </div>
+               
+            </div> 
+            <!--  -->
+
+
+            <!-- CONNECTED PAGE  -->
+            <div class="wholePage" id="connectedPage"> 
+
+                <!-- Header for connected page -->
+                  <div class="container-fluid" id="connectedHeader">
+                    <div class="row header">
+                        <button type="button" class="col-xs-3 btn btn-link headerElem" id="homeButton"> &lt; All</button>
+                        <div class="right-holder">
+                            <div class="col-xs-6 headerElem middle" id="myItemCon"> CONNECTED </div>
+                            <div class="col-xs-3 headerElem right" id="rightCon"></div>
+                        </div>
+                    </div>
+                </div>
+
+               <!-- main conectedPage container -->
+                <div class="container" id="startPageCont">
+                    <div class="row" id="connectedButtons">              
+                        <button type="button" id="buttonUnlock" class="btn btn-danger col-xs-6 actions">*UNLOCK*</button>
+                        <button type="button" id="buttonLock" class="btn btn-primary col-xs-6 actions">*LOCK*</button>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- UNLOCKING PAGE  -->
+            <div class="wholePage" id="unlockingPage"> 
+
+                <!-- Header for unlocking page -->
+                  <div class="container-fluid" id="unlockingHeader">
+                    <div class="row header">
+                        <button type="button" class="col-xs-3 btn btn-link headerElem" id="backUnlock"> &lt; Back </button>
+                        <div class="right-holder">
+                            <div class="col-xs-6 headerElem middle" id="myItemUnlock"> DANCING TIME </div>
+                            <div class="col-xs-3 headerElem right"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- main unlocking Page container -->
+                <div class="container" id="unlockingPageCont">
+                    <div class="row" id="unlockingButtons">
+ 
+                        <button type="button" id="bigButton" class="btn btn-danger col-xs-6 actions">Touch to start<br>
+                        Release when done</button>
+
+                    </div>
+                    
+                </div>
+               
+            </div>
+            <!--  -->
+
+            <!-- validating PAGE  -->
+            <div class="wholePage" id="validatingPage"> 
+
+                <!-- Header for unlocking page -->
+                  <div class="container-fluid" id="validatingHeader">
+                    <div class="row header">
+                        <button type="button" class="col-xs-3 btn btn-link headerElem" id="backToUnlocking"> &lt; Back </button>
+                        <div class="right-holder">
+                            <div class="col-xs-6 headerElem middle" id="validatingTitle"> CHECKING YOUR MOVES </div>
+                            <div class="col-xs-3 headerElem right"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- main validating Page container -->
+                <div class="container" id="validatingPageCont">
+                    <div class="row" id="validatingButton">
+ 
+                        <button type="button" id="bigValidatingButton" class="btn btn-danger col-xs-6 actions">validating your signature ..<br>
+                        Hang on..</button>
+
+                    </div>
+                    
+                </div>
+               
+            </div>
+            <!--  -->
+            <!-- VALID PAGE  -->
+            <div class="wholePage" id="validPage">
+                <!-- Header for valid page -->
+                <div class="container-fluid" id="validHeader">
+                    <div class="row header">
+                        <button type="button" class="col-xs-3 btn btn-link headerElem" id="backValid"> &lt; Back </button>
+                        <div class="right-holder">
+                            <div class="col-xs-6 headerElem middle" id="sigValid"> COOL MOVES :) </div>
+                            <div class="col-xs-3 headerElem right"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- main unlocking Page container -->
+                <div class="container" id="validPageCont">
+                    <div class="row" id="validButtons">
+ 
+                        <button type="button" id="validButton" class="btn btn-warning col-xs-6 actions">Didn't ulock?<br>
+                        Just tap to try again</button>
+                        <button type="button" id="confirmButton" class="btn btn-info col-xs-6 actions"> GOT IT!</button>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+            <!--  -->
+
+            <!-- INVALID PAGE  -->
+            <div class="wholePage" id="invalidPage"> 
+
+                <!-- Header for invalid page -->
+                  <div class="container-fluid" id="invalidHeader">
+                    <div class="row header">
+
+                        <button type="button" class="col-xs-3 btn btn-link headerElem homeBtn" id="backInvalid"> &lt; Home </button>
+                        <div class="right-holder">
+                            <div class="col-xs-6 headerElem middle" id="sigInvalid"> WRONG MOVES </div>
+                            <div class="col-xs-3 headerElem right"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- main INvalid Page container -->
+                <div class="container" id="invalidPageCont">
+                    <div class="row" id="ivalidButtons">
+ 
+                        <button type="button" id="bigInvalidButton" class="btn btn btn-warning col-xs-6 actions">whoops! moves didn't match  <br> <br>
+                        Tap to try again</button>
+
+                    </div>
+                    
+                </div>
+               
+            </div>
+            <!--  -->
+
+
+        <div id="debugingDiv">
+            <!-- debuging buttons  -->
+            <button id="showEdit"> editPage </button>
+            <button id="showIntro"> intropage</button>
+            <button id="showStart"> startpage</button>
+            <button id="showTrain"> train page</button>
+            <button id="showConnected"> connected page</button>
+            <button id="showUnlocking"> unlocking page </button>
+            <button id="showValidating"> validating </button>
+            <button id="validPageButton"> valid page</button>
+            <button id="invalidPageButton"> invalid page</button>
+            <!-- time -->
+            <h3 id="timer)"><time>00:00</time></h3>
+            <button id="startTime">start</button>
+            <button id="stopTime">stop</button>
+            <!--  -->
+            <button id="clearTime">clear</button>
+            <!--  -->
+            
+
+            <div id="message">Debuging messages</div>
+        </div>
+        <!--  -->
+        
+        </div>
+        <!-- bootstrsap things -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- cordova files -->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script>
+            app.initialize();
+        </script>
+        <!-- for stopwatch -->
+        <script type="text/javascript" src="stopwatch.js"></script>
+        <script type="text/javascript">
+            stopwatch.initialize();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">AirSigGui</string>
+    
+    <string name="set_signature">設定簽名</string>
+    <string name="verify_signature">驗證簽名</string>
+    <string name="clean_db">清除資料庫</string>
+    <string name="no_signature">請先設定簽名</string>
+    
+    <string name="tutorial_title_p0">什麼是空中簽名</string>
+    <string name="tutorial_desc_p0">拿著你的手機在空中寫字，即可創造一把專屬於你，獨一無二的鑰匙。</string>
+    <string name="tutorial_title_p1">為什麼安全</string>
+    <string name="tutorial_desc_p1">因為每個人寫字的方式都很獨特，很難模仿。</string>
+    <string name="tutorial_title_p2">使用小技巧</string>
+    <string name="tutorial_desc_p2">手要拿穩，拿的方式每次要一致。如果拿的方式變化很大，會被視作是不一樣的簽名。『拿法也是你的秘密之一。』</string>
+    <string name="tutorial_title_p3">使用小技巧</string>
+    <string name="tutorial_desc_p3">使用手腕寫字：『動作小，比較不容易被看出來。』</string>
+    <string name="get_started">立即開始</string>
+    
+    <string name="verify_match">通過!</string>
+    <string name="verify_not_match">未通過!</string>
+    
+    <!-- Text for actionbar -->
+    <string name="done">完成</string>
+    <string name="reset">重設</string>
+    <string name="clean">清除資料</string>
+
+    <!-- Title and description -->
+    <string name="textview_title_screen1_3">設定你握手機的位置</string>
+    <string name="textview_description_screen1_3">把你的大拇指放到螢幕上握著手機，試著寫看看怎麼拿比較穩，找到後『點螢幕兩次』。</string>
+    <string name="textview_title_screen4_5">設定你的秘密文字</string>
+    <string name="textview_description_screen4_5">按住按鈕後開始寫，寫完之後放開</string>
+
+    <!-- Text for 3rd training screen -->
+    <string name="textview_set_thumb">設定</string>
+    <string name="btn_next_step">下一步</string>
+
+    <!-- Text for 5th training screen -->
+    <string name="textview_recording">紀錄中&#8230;</string>
+
+    <!-- Text for 6th training screen -->
+    <string name="textview_training_status">完成簽名 %1$d 次\n(還需要 %2$d 次)</string>
+    
+    <!-- Text for 7th training screen -->
+    <string name="btn_sign_again">繼續輸入</string>
+    <string name="btn_test_signature">測試驗證</string>
+    <string name="textview_training_done">設定完成</string>
+    <string name="textview_strength_description">安全強度為</string>
+    <string name="textview_training_result_strong">強</string>
+    <string name="textview_training_result_normal">一般</string>
+    <string name="textview_training_result_weak">弱</string>
+    <string name="textview_training_result_weakest">非常弱</string>
+
+    <!-- Text for dialog popup in training mode -->
+    <string name="training_popup_title">訊息</string>
+    <string name="training_popup_not_finish_training">您的簽名設定未完成。</string>
+    
+    <string name="err_not_found">找不到項目</string>
+    <string name="err_invalid_license">認證碼無效</string>
+    <string name="err_invalid_action_index">參數錯誤：actionIndex</string>
+    <string name="err_user_id">參數錯誤：userId</string>
+    <string name="err_invalid_signature">參數錯誤：signature</string>
+    <string name="err_high_defference">簽名差異太大</string>
+    <string name="err_no_sensor">找不到感測元件</string>
+    <string name="err_no_internet">無網路</string>
+    
+</resources>
